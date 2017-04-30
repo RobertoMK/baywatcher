@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Baywatcher</string>
+    <string name="action_sair">Sair</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_menu">Baywatcher</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_infowindow_map_custom">infowindow_map_custom</string>
+    <string name="title_activity_alerta">Alerta</string>
+</resources>

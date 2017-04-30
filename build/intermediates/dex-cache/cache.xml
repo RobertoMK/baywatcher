@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_488239e8bc9343aa24b5d7929368ebc1d8472f2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_3d3edb76203562127e7c23c5fe6e298ce8b638e3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_3d3edb76203562127e7c23c5fe6e298ce8b638e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/f39e8bec6768b4d5cc6ab0749f938956ee8cd583/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84a8a9780b45d47906b046a19ad30d64724a7255/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/6d3633ae3ac14f6afa3cf3ae389ff54d29e17504/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_482fecee6add2e2922676fab6cf3a79102baaa36.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/d6d31208b779b605067a5d0d9769f96d06130080/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_728afc2bc90859794f4a42373ca489476e097908/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/92acd8f6dd150f22d79fa71f6158d6955e39bab1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_71d24f58a5e575da9539739484b1119cde15c52d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/80e1477911aff829f96540230ef2a8b534c6f061/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_626968a0d957e56dd9b89a71c89d875ab34916ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/6d3633ae3ac14f6afa3cf3ae389ff54d29e17504/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_482fecee6add2e2922676fab6cf3a79102baaa36/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/7099576d067d0c69ff62940309917a13ac09c47a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_833664d9c9758261b8038e2e221257a7f18a412a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/92acd8f6dd150f22d79fa71f6158d6955e39bab1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71d24f58a5e575da9539739484b1119cde15c52d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/d6d31208b779b605067a5d0d9769f96d06130080/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_728afc2bc90859794f4a42373ca489476e097908.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/29b6d9f6bd13a52744d4d0f3e1d54f07a2c7f618/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f230ae6488cf3c4014f367603485f6f3bdd1fe41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/199626c3d726ada99c322402f3667b462e5ccba5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_050c2fea2e066f56967eecc4352964ae35b313e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/881f9bcfbd9365ee6b5e5ee84fe726dbe204977e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_501074782f8a1b9d8833dd212919e2a1c446a555.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/29b6d9f6bd13a52744d4d0f3e1d54f07a2c7f618/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_f230ae6488cf3c4014f367603485f6f3bdd1fe41.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/560bd7bc53b93ea669b62a95fb3263afb6f7a94f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1241b603cbb4c19fc4d9ef16075c4980de643156/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/7099576d067d0c69ff62940309917a13ac09c47a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_833664d9c9758261b8038e2e221257a7f18a412a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/e702bf8dfd1bff68f1b402a1f2a30afd675af1c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_66267f6bc447e08bd1bfcd1d7f88147a28fcaac3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/e702bf8dfd1bff68f1b402a1f2a30afd675af1c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66267f6bc447e08bd1bfcd1d7f88147a28fcaac3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/881f9bcfbd9365ee6b5e5ee84fe726dbe204977e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_501074782f8a1b9d8833dd212919e2a1c446a555/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/560bd7bc53b93ea669b62a95fb3263afb6f7a94f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_1241b603cbb4c19fc4d9ef16075c4980de643156.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/98bc3eb68885e0a6d0c3406ebbe0506e7985644e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17b319b746ec1d7af6e8df58daa06aded79cde74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/fac40026c330b73979bd26feb2e8b21080226332/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f41a08b5c06e608ffa59b6495d4e30ca3b1a3889/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/98bc3eb68885e0a6d0c3406ebbe0506e7985644e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_17b319b746ec1d7af6e8df58daa06aded79cde74.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/60a8791ac128621ac9afef82290669bc9fb3bd49/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd020ecf580d6b06f0f1439ff720875257ca537c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/199626c3d726ada99c322402f3667b462e5ccba5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_050c2fea2e066f56967eecc4352964ae35b313e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/3266ac60efaf2560d24eda2131a1091f7a157e63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_087a01114b0e2b8a57fdbb7e703b74b7cab21776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/fac40026c330b73979bd26feb2e8b21080226332/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_f41a08b5c06e608ffa59b6495d4e30ca3b1a3889.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="838009137c237cfdd85c1cb82e8676612c788cdf">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6618fc0a7ee200c23a77450224add84bcace7e14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/3266ac60efaf2560d24eda2131a1091f7a157e63/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_087a01114b0e2b8a57fdbb7e703b74b7cab21776/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/.android/build-cache/269adfef9bf46056e07f8826d2fa56bc95a7abb7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/classes_a988534d0096fb173beb521e36d490e2be9bfd84.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_26999aa2f0b8ddd5ba0584514eeb6f092c75627d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/74ed91adc5d3cb4d76bc96765142f7e336fe9d2c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_052b37b8619c72d23ed580f70282f1d33abef2ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/Alexandre/.android/build-cache/269adfef9bf46056e07f8826d2fa56bc95a7abb7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a988534d0096fb173beb521e36d490e2be9bfd84/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/Alexandre/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/Alexandre/AndroidStudioProjects/Baywatcher/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_488239e8bc9343aa24b5d7929368ebc1d8472f2a.jar" />
+    </item>
+
+</items>

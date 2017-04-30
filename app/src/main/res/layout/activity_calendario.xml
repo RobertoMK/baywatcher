@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical" >
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALENDARIO ACADEMICO"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="0dp"
+        android:background="#000"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|top" />
+</LinearLayout>
