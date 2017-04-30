@@ -87,7 +87,6 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
         mMap.clear();
 
         long date = myLocation.getTime();
-        //Toast.makeText(getContext(),"Time"+date, Toast.LENGTH_LONG).show();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
         String dateString = sdf.format(date);
@@ -104,7 +103,6 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
 
         double  n = calendario.get(Calendar.DAY_OF_YEAR);
         int  n2 = calendario.get(Calendar.HOUR_OF_DAY);
-        //Toast.makeText(getContext(),"Time"+n2, Toast.LENGTH_LONG).show();
 
 
             CameraPosition updateMinhaCasa = new CameraPosition(sydney, 15, 0, 0);
@@ -114,21 +112,23 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
 
             meuMarcadorMarker.getPosition();
 
-        if(n2 < 6 || n2 > 18){//Tentar colocar a API.
+        SimpleDateFormat sdf1 = new SimpleDateFormat("HH:mm:ss");
+        Date date2 = Calendar.getInstance().getTime();
+        int hora = date2.getHours();
 
-            double h = Math.pow(16.0, -1) * 15.0 * (16.0 - 12.0);
+        if(hora > 6 || hora < 18){//Tentar colocar a API.
 
-            double d = 360.0/365.0;
+            double h = (hora -12)*15*(1/hora);
 
-            double s = 23.45 * Math.sin( (360.0*(n-80.0))/365 );
+            double s = 23.45 * Math.sin((360.0*(n-80.0)/365));
 
             double z = ( Math.sin(lat)*Math.sin(s) ) + ( Math.cos(lat)*Math.cos(s)*Math.cos(h) );
 
-            double isolacao = s*Math.cos(z);
-            Toast.makeText(getContext(),"Isolação WTF"+isolacao, Toast.LENGTH_LONG).show();
+            double insolacao = s*Math.cos(z);
+            Toast.makeText(getContext(),""+insolacao, Toast.LENGTH_LONG).show();
 
-            if(insolacao >= 0.4 && insolacao < 0.6){
-                meuMarcadorMarker.setTitle("Hoje e um dia bom para se curti a praia.");
+            if(insolacao >= 13.0 && insolacao < 14.0){
+                meuMarcadorMarker.setTitle("Hoje não e um bom dia para ir a Praia..");
                 meuMarcadorMarker.setSnippet("Click para saber mais ...");
 
                 meuMarcadorMarker.setIcon(BitmapDescriptorFactory.fromResource(R.drawable.ic_info_red_800_24dp));
@@ -138,7 +138,7 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
                 mMap.setOnInfoWindowClickListener(this);
                 meuMarcadorMarker.getPosition();
                 op = 1;
-            }else if(insolacao >= 0.6 && insolacao < 0.6){
+            }else if(insolacao >= 14.0 && insolacao < 15.0){
                 meuMarcadorMarker.setTitle("Hoje não e um bom dia para ir a Praia.");
                 meuMarcadorMarker.setSnippet("Click para saber mais ...");
 
@@ -150,7 +150,7 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
                 meuMarcadorMarker.getPosition();
                 op = 2;
 
-            }else if(insolacao >= 0.8 && insolacao < 1.0){
+            }else if(insolacao >= 15.0){
                 meuMarcadorMarker.setTitle("Hoje não e um bom dia para ir a Praia.");
                 meuMarcadorMarker.setSnippet("Click para saber mais ...");
 
@@ -169,14 +169,14 @@ public class MapsActivity extends Fragment implements GoogleMap.OnInfoWindowClic
     @Override
     public void onInfoWindowClick(Marker marker) {
         if(op == 1){
-            Toast.makeText(getContext(), "Não fique exposto ao sol " +
-                    "antes das 2P pm. Nivel de Insolação: Muito Baixo", Toast.LENGTH_LONG).show();
+            Toast.makeText(getContext(), "Os filtros solares são produtos capazes de proteger nossa pele dos raios ultravioleta evitando assim o " +
+                    "fotoenvelhecimento e o desenvolvimento de câncer de pele. Nivel de Insolação: Médio.", Toast.LENGTH_LONG).show();
         }else if(op == 2){
             Toast.makeText(getContext(), "O câncer da pele é causado pela radiação solar excessiva. Procure semprer ir a praia e fazer passeios" +
-                    "antes das 2P pm. Nivel de Insolação: Baixo", Toast.LENGTH_LONG).show();
+                    "antes das 2P pm. Nivel de Insolação: Médio", Toast.LENGTH_LONG).show();
         }else if(op == 3){
             Toast.makeText(getContext(), "O câncer da pele é causado pela radiação solar excessiva. Procure semprer ir a praia e fazer passeios" +
-                    "antes das 2P pm. Nivel de Insolação: Médio", Toast.LENGTH_LONG).show();
+                    "antes das 2P pm. Nivel de Insolação: Alto", Toast.LENGTH_LONG).show();
         }
     }
 }

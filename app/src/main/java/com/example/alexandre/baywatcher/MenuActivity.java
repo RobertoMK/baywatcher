@@ -83,12 +83,12 @@ public class MenuActivity extends AppCompatActivity
             MapsActivity1 frag1 = new MapsActivity1();
 
             Bundle args = new Bundle();
-            args.putInt("frag1",id);
+            args.putInt("frag2",id);
             frag1.setArguments(args);
 
             FragmentTransaction ft = fm.beginTransaction();
             ft.addToBackStack("pilha");
-            ft.replace(R.id.content_menu,frag1,"frag1");
+            ft.replace(R.id.content_menu,frag1,"frag2");
             ft.commit();
 
         } else if (id == R.id.nav_ferramentas) {

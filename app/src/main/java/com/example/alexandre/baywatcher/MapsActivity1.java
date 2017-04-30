@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
-public class MapsActivity1 extends SupportMapFragment implements OnMapReadyCallback,GoogleMap.OnMapClickListener, LocationListener,GoogleMap.OnInfoWindowClickListener {
+public class MapsActivity1 extends Fragment implements OnMapReadyCallback,GoogleMap.OnMapClickListener, LocationListener,GoogleMap.OnInfoWindowClickListener {
     private GoogleMap mMap;
     String address;
     private LocationManager locationManager;
@@ -69,9 +69,6 @@ public class MapsActivity1 extends SupportMapFragment implements OnMapReadyCallb
 
         double lat = latLng.latitude;
         double lng = latLng.longitude;
-
-        //Toast.makeText(getContext(),"Lat"+lat, Toast.LENGTH_LONG).show();
-
 
         LatLng sydney = new LatLng(lat, lng);
 
